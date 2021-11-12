@@ -45,7 +45,7 @@ button:focus{
     grid-template-columns: repeat(auto-fit, 200px);
     grid-template-rows: 1fr;
     padding: 40px 80px;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
 }
 p {
     margin: 0 0 5px 0;
@@ -97,7 +97,7 @@ img {
     border-bottom: 10px solid white;
 }
 
-.buy-btn, .del-btn{
+.buy-btn, .del-btn, .btn-ok{
     margin-top: 5px;
     background-color: #2f2a2d;
     padding: 5px 15px;
@@ -169,3 +169,15 @@ img {
     border: none;
     border-bottom: 2px solid #fafafa;
 }
+.error-box {
+    border: 2px solid;
+    position: relative;
+    width: 600px;
+    height: 120px;
+    margin: 10% auto;
+    z-index: 1;
+    background: orangered;
+    padding: 10px;
+    text-align: center;
+}
+
